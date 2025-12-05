@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://static.vecteezy.com/system/resources/previews/008/131/223/original/simple-and-clean-restaurant-logo-template-design-in-brown-color-suitable-for-restaurants-cafe-shops-food-stalls-food-menus-etc-free-vector.jpg">
+    <title>Spice Garden </title>
+    <link rel="stylesheet" href="site.css">
+</head>
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display:flex;                         
+    justify-content: space-between;        
+    align-items: center;                   
+    background-color: #833403;
+    padding: 15px 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+
+.nav-links a:hover {
+    color: #ffcc00;
+}
+
+
+@media (max-width: 600px) {
+
+    .navbar {
+        flex-direction: column;            
+        align-items: flex-start;          
+    }
+
+    .nav-links {
+        flex-direction: column;          
+        gap: 15px;
+        margin-top: 10px;
+    }
+}
+
+
+</style>
+
+<body>
+
+ <nav class="navbar">
+        <div class="logo">FOOD SERVED BY ANNA </div>
+
+        <ul class="nav-links">
+            <li><a href ="website.html">Home</li>
+            <li><a href="aboutsite.html">About</a></li>
+            <li><a href="MENU.HTML">Menu</a></li>
+         
+        </ul>
+    </nav>
+
+
+<header class="banner">
+    <div class="banner-text">
+        <h1>Welcome to Spice Garden</h1>
+        <p>Delicious • Fresh • Homemade</p>
+    </div>
+</header>
+
+<section class="categories">
+    <h2>Food Categories</h2>
+    <div class="category-container">
+        <div class="category-card"> Starters</a></div>
+    
+        <div class="category-card">Main Course</div>
+        <div class="category-card">Desserts</div>
+        <div class="category-card">Beverages</div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 Spice Garden Restaurant</p>
+</footer>
+
+</body>
+</html>
